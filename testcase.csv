@@ -1,0 +1,315 @@
+stepInstructionDetail,stepInstruction,patientDemographicFields,,
+"Day 1: Schedule Appointment for an Outpatient  in Soarian (Schedule a single Appointment) through Appointment Management in Soarian Scheduling
+
+Open Soarian and Login as Medical Group user
+Username: cs-callcenter
+Password:!Soarian1
+
+Note: Populate the Pre-Note Information after selecting an appointment
+
+Refer to ""Patient Demographics"" tab
+
+Update Test Data sheet (TESTER TO POPULATE AFTER ENCOUNTER CREATION section in Patient Demographics tab) and Actual Result with below details
+Medical Record Number:
+Encounter Number:
+ECD:
+Date of Service:
+
+Print Encounter Artifacts
+Select Done
+
+Manual Test Case Reference/s (Folder path - Project Access - Huntington\Reference Test Cases\Patient Access):
+- Log on_Log off - Hospital Ancillary User Role
+- Patient Search_New Patient
+- Add New Insurance
+- Insurance Verification
+
+Automation Test Case Reference/s:
+",Day 1: Schedule Appointment for an Outpatient  in Soarian (Schedule a single Appointment) through Appointment Management in Soarian Scheduling,"Last Name
+First Name
+Attending Doctor
+Referring Doctor
+Guarantor
+Admitting Diagnosis
+Plan 1
+Allocate Insurance
+Verify Insurance
+Plan 1 Policy#
+Plan 1 Group#
+Subscriber Type
+Subscriber Name
+Plan 2
+Allocate Insurance
+Verify Insurance
+Plan 2 Policy#
+Plan 2 Group#
+Subscriber Type
+Subscriber Name
+Appointment Start Date
+Department
+Location
+Resource (Medical Group)
+Activity",,
+"Day 1: Perform Quick Check-In of an Emergency patient in Soarian
+
+Open Soarian and login as ED user
+Username: cs-eduser
+Password: !Soarian1
+
+Refer to ""Patient Demographics"" tab in the Test Data sheet  
+
+Update Test Data sheet (TESTER TO POPULATE AFTER ENCOUNTER CREATION section in Patient Demographics tab) and Actual Result with below details
+Medical Record Number:
+Encounter Number:
+ECD:
+Date of Service:
+
+Print below encounter artifacts and select done.
+ - Barcoded Wristbands (auto, demand)
+
+Log off from Soarian
+
+Manual Test Case Reference/s (Folder path - Project Access - Huntington\Reference Test Cases\Patient Access):Cases\Patient Access):
+- Log on_Log off - ED User Role
+- Patient Search_New Patient
+- Quick Check-In
+
+Automation Test Case Reference/s:
+",Day 1: Perform Quick Check-In of an Emergency patient in Soarian,"Encounter Provider
+Encounter Location
+First Name
+Last Name
+Gender
+Date of Birth
+Encounter Start Date & Time
+Reason for encounter
+Clinical Service
+Arrival Mode",,
+"Day 1: Perform Complete Check-in of an Emergency patient in Soarian
+
+Open Soarian and login as ED user
+Username: cs-eduser
+Password: !Soarian1
+
+Refer to ""Patient Demographics"" tab in the Test Data sheet
+
+Print below encounter artifacts and select done.
+ - Facesheet (auto, demand)
+
+Log off from Soarian
+
+Manual Test Case Reference/s (Folder path - Project Access - Huntington\Reference Test Cases\Patient Access):Cases\Patient Access):
+- Log on_Log off - ED User Role
+- Patient Search_Existing Patient
+- Complete Check In_Incomplete Check-In Worklist_New Patient
+- Add New Insurance_Incomplete Check-In Worklist
+- Allocate Insurance_Incomplete Check-In Worklist
+- Insurance Verification
+
+Automation Test Case Reference/s:
+","Day 1: Perform Complete Check-in of an Emergency patient in Soarian
+","First Name
+Last Name
+Pt's Father's First Name
+Pt's Mother's First Name
+ID Seen?
+SSN
+SSN Reason
+Email
+If No Email
+Manage Contacts - First Name
+Manage Contacts - Last Name
+Manage Contacts - Patient is
+Manage Contacts - Contact Type
+Northwell Employee?
+Encounter Source
+Admission Type
+Clinical Service
+Patient Communication Consent
+Attending Doctor
+Guarantor
+Benefits assignment certification signature
+Release of Information
+Incident began date
+Incident Type
+Primary Care Provider
+Add Care Provider - Role in Patient Care
+Add Care Provider  - Care Provider Start Date
+HIPAA Statement Provided
+Date provided
+Patient signature
+Plan 1
+Allocate Insurance
+Verify Insurance
+Plan 1 Policy#
+Plan 1 Group#
+Subscriber Type
+Subscriber Name
+Plan 2
+Allocate Insurance
+Verify Insurance
+Plan 2 Policy#
+Plan 2 Group#
+Subscriber Type
+Subscriber Name",,
+"Day 1: Revise Encounter
+
+Open Soarian and login as ED user
+Username: cs-admitting
+Password: !Soarian1
+
+Refer to ""Patient Demographics"" tab in the Test Data sheet
+
+
+Log off from Soarian
+
+Manual Test Case Reference/s (Folder path - Project Access - Huntington\Reference Test Cases\Patient Access):
+- Log on_Log off - ED User Role
+- Patient Search_Existing Patient
+- Revise Encounter
+
+Automation Test Case Reference/s:
+",Day 1: Revise Encounter,"Attending Doctor
+Plan 1
+Allocate Insurance
+Verify Insurance
+Plan 1 Policy#
+Plan 1 Group#
+Subscriber Type
+Subscriber Name
+Plan 2
+Allocate Insurance
+Verify Insurance
+Plan 2 Policy#
+Plan 2 Group#
+Subscriber Type
+Subscriber Name
+Clinical Service
+Level of Care",,
+"Day 1: Change Patient Status from Emergency to Inpatient through Encounters in Progress Worklist
+
+Open Soarian and login as Admitting user
+Username: cs-admitED
+Password: !Soarian1
+
+Refer to ""Patient Demographics"" tab in the Test Data sheet
+
+Select the Check Box for ""Copy Verification Information for insurance policies that are verified"" and Select the ER Encounter below and then click OK
+
+Update Test Data sheet (TESTER TO POPULATE AFTER ENCOUNTER CREATION section in Patient Demographics tab) and Actual Result with below details
+Encounter Number:
+ECD:
+Date of Service:
+
+Print below encounter artifacts and select done.
+ - BarcodedEncounter Labels (auto, demand)
+ - Barcoded Wristbands (auto, demand)
+ - Facesheet (auto, demand)
+
+Log off from Soarian
+
+Manual Test Case Reference/s (Folder path - Project Access - Huntington\Reference Test Cases\Patient Access):
+- Log on_Log off - Admitting User Role
+- Patient Search_Existing Patient
+- Change Patient Status _Transition_ER to IP
+
+Automation Test Case Reference/s:
+",Day 1: Change Patient Status from Emergency to Inpatient through Encounters in Progress Worklist,"Encounter Provider
+Encounter Location
+Start Date
+Start Time
+ID seen?
+Admission Source
+Clinical Service
+Level of Care
+Admitting Diagnosis Code
+Admitting Doctor
+Attending Doctor
+Nurse Station
+Room-Bed
+Opt Out of Directory?
+Patient Communication Consent
+On the Pop-up box “Copy Transition Insurance”
+Plan 1
+Allocate Insurance
+Verify Insurance
+Plan 1 Policy#
+Plan 1 Group#
+Subscriber Type
+Subscriber Name
+Plan 2
+Allocate Insurance
+Verify Insurance
+Plan 2 Policy#
+Plan 2 Group#
+Subscriber Type
+Subscriber Name",,
+"Day 1: Create Treatment Series for Patient for HEMONC 
+
+Open Soarian and login as cs-edadmthodmgr role
+Username: cs-edadmthodmgr
+Password: !Soarian1
+
+Refer to ""Patient Demographics"" tab in the Test Data sheet
+
+Update Test Data sheet (TESTER TO POPULATE AFTER ENCOUNTER CREATION section in Patient Demographics tab) and Actual Result with below details
+Medical Record Number:
+Encounter Number:
+ECD:
+Date of Service:
+
+Log off from Soarian
+
+Manual Test Case Reference/s (Folder path - Project Access - Huntington\Reference Test Cases\Patient Access):
+- Log on_Log off - Admitting User Role
+- Patient Search_Existing Patient
+- Change Patient Status_Cancel and Resume
+
+Automation Test Case Reference/s:
+",Day 1: Create Treatment Series for Patient for HEMONC ,"Last Name
+First Name
+Gender
+Date of Birth
+Attending Doctor
+Referring Doctor
+Guarantor
+Admitting Diagnosis
+Plan 1
+Allocate Insurance
+Verify Insurance
+Plan 1 Policy#
+Plan 1 Group#
+Subscriber Type
+Subscriber Name
+Plan 2
+Allocate Insurance
+Verify Insurance
+Plan 2 Policy#
+Plan 2 Group#
+Subscriber Type
+Subscriber Name
+Appointment Start Date
+Department
+Location
+Resource (Medical Group)
+Activity",,
+"Day 1: Check Patient out
+
+Open Soarian and login as nursing user
+Username: cs-nursinguser
+Password: welcome16
+
+Refer to ""Patient Demographics"" tab in the Test Data sheet
+
+Print encounter artifacts and select done.
+
+Log off from Soarian
+
+Manual Test Case Reference/s (Folder path - Project Access - Huntington\Reference Test Cases\Patient Access):Cases\Patient Access):
+- Log on_Log off - Nursing User Role
+- Patient Search_Existing Patient
+- Check Patient Out
+
+Automation Test Case Reference/s:
+",Day 1: Check Patient out,"Encounter End Date & Time
+Discharge Disposition",,
